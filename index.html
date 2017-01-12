@@ -1,14 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
 <link  rel= "stylesheet" href="style.css" />
-<style>
-
-
-
-
-</style>
 </head>
 
 <body>
@@ -16,16 +9,15 @@
 
 <header>
 	<div class="container">
-		<h1>  TITLE  </h1>
-	
-	<nav>
-		<ul>
+		<h1 ><a class="title" href="index.html"> Post Book</a></h1>
+		<nav>
+			<ul>
 				<li><a  class="active" href="#">HOME</a></li>
 				<li><a href="Notes.html">NOTES</a></li>
 				<li><a href="About.html">ABOUT</a></li>
-		</ul>
-	</nav>
-	<a  class="button" href="">LOGIN</a>
+			</ul>
+		</nav>
+		<a  class="button" href="">LOGIN</a>
 	</div>	
 </header>
 <section class="content-container">
@@ -33,20 +25,15 @@
 		<h1  id="register-heading">   Register </h1>
 		<form>
 			<ul>
-				<li><input type="text" placeholder="Username"></li>
-				<li><input type="text" placeholder="Email"></li>
-				<li><input type="password" placeholder="Password"></li>
-				<li><input type="password" placeholder="Con Password"></li>
-				
+				<li><input type="text" name="username" placeholder="Enter Username"></li>
+				<li><input type="email"  name="email" placeholder="Enter Email"></li>
+				<li><input type="password" name="password" placeholder="Enter Password"></li>
+				<li><input type="password" name="confirm" placeholder="Confirm Password"></li>
 			</ul>
-			<input type="submit" class="button" value="Submit">
+			<input class="button" type="submit" value="Sign Up">
+
 		</form>
-	
 	</div>
-
 </section>
-
-
 </body>
-
 </html>
