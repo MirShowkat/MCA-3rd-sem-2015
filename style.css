@@ -108,3 +108,12 @@ input {
 #register-heading{
 	padding-left:50px;
 }
+input[type="submit"]{
+	width:190px;
+	
+	
+}
+#Register-form li:hover{
+	border-color:blue;
+	
+}
