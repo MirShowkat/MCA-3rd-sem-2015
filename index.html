@@ -5,7 +5,8 @@
 </head>
 
 <body>
-<script  src="script.js"> </script>
+<script  src="script.js" async> </script>
+<script  src="jquery-3.1.1.min.js"></script>
 
 <header>
 	<div class="container">
@@ -25,12 +26,16 @@
 		<h1  id="register-heading">   Register </h1>
 		<form>
 			<ul>
-				<li><input type="text" name="username" placeholder="Enter Username"></li>
-				<li><input type="email"  name="email" placeholder="Enter Email"></li>
-				<li><input type="password" name="password" placeholder="Enter Password"></li>
+				<li><input type="text" id="userName" name="username" placeholder="Enter Username"></li>
+				<label class="errorLabel"  id="userNameErrorLabel"></label>
+				<li><input type="email"    id="email" name="email" placeholder="Enter Email"></li>
+				<label  class="errorLabel" id="emailErrorLabel"></label>
+				<li><input type="password"id="password" name="password" placeholder="Enter Password"></li>
+				<label class="errorLabel" id="passwordErrorLabel"></label>
 				<li><input type="password" name="confirm" placeholder="Confirm Password"></li>
+				<label  class="errorLabel" id="conPasswordErrorLabel"></label>
 			</ul>
-			<input class="button" type="submit" value="Sign Up">
+			<input id="but" class="button" type="submit" value="Sign Up">
 
 		</form>
 	</div>

@@ -131,3 +131,10 @@ input[type="submit"]{
 #Register-form li:hover{
 	border-color:blue;
 }
+.errorLabel{
+	color:red;
+	font-size:10px;
+	padding-left:12px;
+	display:none;
+	
+}
